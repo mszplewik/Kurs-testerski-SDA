@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "CreateBoard",
-			"_postman_id": "8d1f3ff3-3a2e-4c6a-8253-66e30ca9838e",
+			"id": "8d1f3ff3-3a2e-4c6a-8253-66e30ca9838e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -48,14 +48,25 @@
 		},
 		{
 			"name": "NewOrganization",
-			"_postman_id": "309df705-3730-4b9e-b373-30280058cf77",
+			"id": "309df705-3730-4b9e-b373-30280058cf77",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "4c574a24-71f0-47c7-8861-0cfcd05e4512",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
