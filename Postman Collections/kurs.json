@@ -548,8 +548,39 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/lists?name={name}&idBoard=5abbe4b7ddc1b351ef961414&key=APIKey&token=APIToken",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{name}"
+						},
+						{
+							"key": "idBoard",
+							"value": "5abbe4b7ddc1b351ef961414"
+						},
+						{
+							"key": "key",
+							"value": "APIKey"
+						},
+						{
+							"key": "token",
+							"value": "APIToken"
+						}
+					]
+				}
 			},
 			"response": []
 		}
