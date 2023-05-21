@@ -667,7 +667,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "kartka1InProgress",
 			"id": "93e9794b-990a-464b-95ef-777ab416d298",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
