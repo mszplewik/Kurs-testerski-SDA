@@ -901,7 +901,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "label1",
 			"id": "e389b448-2eea-41b2-b102-225c59e6dfcf",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
