@@ -751,7 +751,7 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
 				"url": {
 					"raw": "https://api.trello.com/1/cards?idList=6469f07b92ec86382c1a33cc&key=daa05f920f95e8328d77f6d705628dd5&token=ATTA0e181a5ad78ec9a33fc9802ddbcfbd30171cfa27322f715f5a8c3ad317f9bd1125792F3D",
