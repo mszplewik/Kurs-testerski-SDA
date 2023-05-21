@@ -586,6 +586,23 @@
 		},
 		{
 			"name": "createNewListDonePP",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "906872b2-7574-4892-88dd-901a1c7e0384",
+						"exec": [
+							"pm.test(\"Response time is less than 450ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(450);\r",
+							"});\r",
+							"pm.test(\"Successful POST request\", function () {\r",
+							"    pm.expect(pm.response.code).to.be.oneOf([200, 201, 202]);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"id": "55b5cdcf-c35c-421b-b57a-537cc532c59a",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
