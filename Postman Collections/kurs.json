@@ -369,7 +369,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "createNewListToDo",
 			"id": "05a8342f-e91b-4c4e-a33d-b5625ea505ab",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
