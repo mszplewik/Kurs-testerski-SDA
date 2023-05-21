@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "CreateBoard",
+			"name": "CreateNewBoard",
 			"id": "8d1f3ff3-3a2e-4c6a-8253-66e30ca9838e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
