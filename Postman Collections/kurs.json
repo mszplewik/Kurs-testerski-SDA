@@ -907,8 +907,43 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/labels?name=One&color=green&idBoard=6469ec9a901f4f963b870bcf&key=daa05f920f95e8328d77f6d705628dd5&token=ATTA0e181a5ad78ec9a33fc9802ddbcfbd30171cfa27322f715f5a8c3ad317f9bd1125792F3D",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"labels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "One"
+						},
+						{
+							"key": "color",
+							"value": "green"
+						},
+						{
+							"key": "idBoard",
+							"value": "6469ec9a901f4f963b870bcf"
+						},
+						{
+							"key": "key",
+							"value": "daa05f920f95e8328d77f6d705628dd5"
+						},
+						{
+							"key": "token",
+							"value": "ATTA0e181a5ad78ec9a33fc9802ddbcfbd30171cfa27322f715f5a8c3ad317f9bd1125792F3D"
+						}
+					]
+				}
 			},
 			"response": []
 		}
