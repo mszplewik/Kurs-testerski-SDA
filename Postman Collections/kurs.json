@@ -823,7 +823,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "kartka1Done",
 			"id": "e7230312-400a-4e94-b5b1-e3742cef78a0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
