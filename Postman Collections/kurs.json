@@ -456,7 +456,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "createNewListPretestingPP",
 			"id": "e7809a82-6f87-4e1c-8dd9-4e171c3c40d0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
