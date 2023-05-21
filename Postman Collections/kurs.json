@@ -413,7 +413,7 @@
 			"response": []
 		},
 		{
-			"name": "createNewList",
+			"name": "createNewListInProgressPP",
 			"id": "2ed1a9e0-ba61-4e0e-bec4-ab762ecb1a4e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
